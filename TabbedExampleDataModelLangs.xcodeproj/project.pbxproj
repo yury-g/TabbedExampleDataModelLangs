@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5249F7C1CD2583500F93E82 /* MyDataModelFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5249F7B1CD2583500F93E82 /* MyDataModelFile.swift */; };
 		D54BC12C1CD2446B006E9C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54BC12B1CD2446B006E9C26 /* AppDelegate.swift */; };
 		D54BC12E1CD2446B006E9C26 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54BC12D1CD2446B006E9C26 /* FirstViewController.swift */; };
 		D54BC1301CD2446B006E9C26 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54BC12F1CD2446B006E9C26 /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5249F7B1CD2583500F93E82 /* MyDataModelFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDataModelFile.swift; sourceTree = "<group>"; };
 		D54BC1281CD2446B006E9C26 /* TabbedExampleDataModelLangs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedExampleDataModelLangs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54BC12B1CD2446B006E9C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D54BC12D1CD2446B006E9C26 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				D54BC12D1CD2446B006E9C26 /* FirstViewController.swift */,
 				D54BC12F1CD2446B006E9C26 /* SecondViewController.swift */,
 				D54BC1311CD2446B006E9C26 /* Main.storyboard */,
+				D5249F7B1CD2583500F93E82 /* MyDataModelFile.swift */,
 				D54BC1341CD2446B006E9C26 /* Assets.xcassets */,
 				D54BC1361CD2446B006E9C26 /* LaunchScreen.storyboard */,
 				D54BC1391CD2446B006E9C26 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54BC1301CD2446B006E9C26 /* SecondViewController.swift in Sources */,
+				D5249F7C1CD2583500F93E82 /* MyDataModelFile.swift in Sources */,
 				D54BC12C1CD2446B006E9C26 /* AppDelegate.swift in Sources */,
 				D54BC12E1CD2446B006E9C26 /* FirstViewController.swift in Sources */,
 			);
@@ -290,6 +294,7 @@
 				D54BC13E1CD2446B006E9C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

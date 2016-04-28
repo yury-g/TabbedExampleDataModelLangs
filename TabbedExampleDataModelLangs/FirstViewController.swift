@@ -9,9 +9,19 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelPithyTagLine: UILabel!
 
+    @IBOutlet weak var debugTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        labelName.text = myTitle
+        labelPithyTagLine.text = myTagLine
+        debugTextView.text = debugText
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

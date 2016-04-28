@@ -56,6 +56,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="debugTextView" destination="K2U-Hc-M8W" id="Fkw-NS-t9u"/>
+                        <outlet property="labelName" destination="KQZ-1w-vlD" id="uYg-qM-LsF"/>
+                        <outlet property="labelPithyTagLine" destination="A5M-7J-77L" id="Juo-cW-oax"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
